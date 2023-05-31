@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class schedule {
-    @Scheduled(cron = "0 3 * * *    ")
+    @Scheduled(cron = "0 * * 1 *")
     public void schedule(){
         System.out.println("Cron Expression Executed");
 
